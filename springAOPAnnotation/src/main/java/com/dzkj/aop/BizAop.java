@@ -21,7 +21,7 @@ public class BizAop {
 	// 定义一个无参无返回方法作为切入点
 	@Pointcut("execution(* com.dzkj.biz.*.*(..))")
 	public void mypointcut() {}
-	
+	// 哈哈哈哈哈
 	@Before("mypointcut()")
 	public void 前置增强(JoinPoint jp) {
 		System.out.println("----前置增强----");
